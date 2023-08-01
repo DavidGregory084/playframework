@@ -156,7 +156,7 @@ object Dependencies {
 
   val cookieEncodingDependencies = slf4j
 
-  val jimfs = "com.google.jimfs" % "jimfs" % "1.2"
+  val jimfs = "com.google.jimfs" % "jimfs" % "1.3.0"
 
   val okHttp = "com.squareup.okhttp3" % "okhttp" % "4.9.0"
 
