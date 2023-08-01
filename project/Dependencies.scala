@@ -150,7 +150,7 @@ object Dependencies {
   val nettyVersion = "4.1.58.Final"
 
   val netty = Seq(
-    "com.typesafe.netty" % "netty-reactive-streams-http" % "2.0.5",
+    "com.typesafe.netty" % "netty-reactive-streams-http" % "2.0.9",
     ("io.netty" % "netty-transport-native-epoll" % nettyVersion).classifier("linux-x86_64")
   ) ++ specs2Deps.map(_ % Test)
 
